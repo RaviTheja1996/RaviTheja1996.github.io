@@ -1,0 +1,15 @@
+body
+{
+	background-image : url('Naruto.jpg');
+	background-repeat: no-repeat;
+    background-size: 1528px 719px;
+}
+
+.button1
+{
+    width : 120px;
+	border-radius : 17px;
+	position:absolute;
+	top:80%;
+	left:50%;
+}
