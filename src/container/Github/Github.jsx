@@ -44,6 +44,6 @@ const Github = () => {
 
 export default AppWrap(
   MotionWrap(Github, 'app__github'),
-  'github',
+  'Github',
   "app__primarybg"
 );
