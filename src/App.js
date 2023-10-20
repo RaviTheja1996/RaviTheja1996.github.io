@@ -3,7 +3,6 @@ import React from 'react';
 import { About, Footer, Header, Skills, Testimonial, Work, GithubStats } from "./container";
 import { Navbar } from './components';
 import "./App.scss";
-import { BsDisplay } from 'react-icons/bs';
 
 const App = () => {
   return (
