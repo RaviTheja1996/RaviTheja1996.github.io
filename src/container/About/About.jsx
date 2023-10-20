@@ -43,7 +43,7 @@ const About = () => {
       <h2 className='head-text'><span>About</span> Me</h2>
       <h2 className='head-text'>I know that <span>Good Development</span><br />means <span>Good Business</span>
       </h2>
-      <div className='app__profiles about section'>
+      <div className='app__profiles'>
         {abouts.map((about, index) => {
           return <motion.div
             whileInView={{ opacity: 1 }}
@@ -69,5 +69,5 @@ const About = () => {
 export default AppWrap(
   MotionWrap(About, 'app__about'),
   'about',
-  "app__whitebg"
+  "app__whitebg about section"
 );
