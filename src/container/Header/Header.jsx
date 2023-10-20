@@ -72,7 +72,8 @@ const Header = () => {
           I'm <span>Ravitheja</span> a <span>Full Stack Web Developer</span>
         </div>
         <div id='user-detail-intro'>
-          A passionate full stack web developer and a life long learner trained by Masai School proficient in the MERN stack and  dedicated to developing robust, functional and user-centric websites possessing a keen eye for detail with a problem-solving mindset.
+          A passionate full stack web developer and a life long learner trained by Masai School proficient in the MERN stack and  dedicated to developing robust, functional and user-centric websites possessing a keen eye for detail with a problem-solving mindset. Strong proficiency in JavaScript, with knowledge of HTML, CSS, and RESTful API design. Experienced in database systems like MongoDB and proficient in version control systems
+          such as Git.
         </div>
         <div className='app__header-button'>
           <img src={images.PDF} alt="Resume" />
