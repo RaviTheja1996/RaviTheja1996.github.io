@@ -24,6 +24,7 @@ const Navbar = () => {
           <div />
           <button id='resume-button-1'
             className='nav-link resume nav-resume-button'
+            onClick={() => { window.open(`${images.resumePdf}`, "_blank"); }}
           >
             <a id="resume-link-1" href={`#contact`}>{"resume"}</a>
           </button>
