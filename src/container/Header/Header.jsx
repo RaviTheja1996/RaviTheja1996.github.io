@@ -76,7 +76,7 @@ const Header = () => {
           such as Git.
         </div> */}
         <div id='user-detail-intro'>
-          A dedicated full stack web developer, I bring passion, lifelong learning, and proficiency in the MERN stack to the table. My focus is on crafting robust, functional, and user-centric websites, where attention to detail and a problem-solving mindset drive my work. My expertise extends to JavaScript, HTML, CSS, and RESTful API design, delivering seamless and dynamic web experiences. With hands-on experience in MongoDB and adeptness in Git for version control, I am well-versed in creating innovative solutions that resonate with modern tech trends.
+          A dedicated full stack web developer, I bring passion, lifelong learning, and proficiency in the MERN stack to the table. My focus is on crafting robust, functional, and user-centric websites having attention to detail and a problem-solving mindset my work is to deliver seamless and dynamic web experiences. With hands-on experience and adeptness in Git for version control. Quality and solution driven, skilled in and having hands-on experience of working with HTML, CSS, JavaScript, React, NodeJS and MongoDB. Highly resilient and focused on learning new techniques to build real world websites while facilitating the growth of self and that of the organization.
         </div>
         <button id='resume-button-2' className='app__header-button' onClick={() => {
           window.open(`${images.resumePdf}`, "_blank");
