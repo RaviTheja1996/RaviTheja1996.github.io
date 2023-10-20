@@ -3,30 +3,6 @@ import "./About.scss";
 import { motion } from "framer-motion";
 import { urlFor, client } from '../../client';
 import { AppWrap, MotionWrap } from '../../wrapper';
-// import { images } from "../../constants";
-
-// const abouts = [
-//   {
-//     title: "Web Animations",
-//     description: "I am a good Web Developer",
-//     imgUrl: images.about01
-//   },
-//   {
-//     title: "FrontEnd development",
-//     description: "I am a good Web Developer",
-//     imgUrl: images.about03
-//   },
-//   {
-//     title: "Backend Development",
-//     description: "I am a good Web Developer",
-//     imgUrl: images.about02
-//   },
-//   {
-//     title: "MERN Stack",
-//     description: "I am a good Web Developer",
-//     imgUrl: images.about04
-//   }
-// ];
 
 const About = () => {
   const [abouts, setAbouts] = useState([]);
