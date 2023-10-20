@@ -40,7 +40,7 @@ const Footer = () => {
 
   return (
     <>
-      <h2 className='head-text'>My <span>Contact</span> Details</h2>
+      <h2 className='head-text'><span>Contact</span> Details</h2>
 
       <div className='app__footer-cards'>
         <div className='app__footer-card'>
@@ -63,13 +63,14 @@ const Footer = () => {
           <img src={images.location} alt="location" />
           <a href="https://rb.gy/4wmcm" className='p-text' target='_blank' rel="noreferrer">Hyderabad, Telangana</a>
         </div>
-        <div className='app__footer-card'>
+        <div
+          className='app__footer-card'
+          onClick={() => { window.open(`${images.resumePdf}`, "_blank"); }}
+        >
           <img src={images.PDF} alt="Resume" />
           <a
-            id='resume-button-1'
             href="https://rebrand.ly/ravitheja-pdf-d1c49f"
-            download="Ravitheja-Resume.pdf"
-            className='p-text resume-button-1 resume-link-1'
+            className='p-text'
             target='_blank'
             rel="noreferrer"
             style={{ color: "white" }}

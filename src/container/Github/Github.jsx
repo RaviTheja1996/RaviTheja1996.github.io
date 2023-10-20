@@ -5,7 +5,7 @@ import "./Github.scss";
 const Github = () => {
   return (
     <div style={{ display: "flex", flexDirection: "column" }}>
-      <h2 className='head-text' style={{ marginTop: "2rem" }}><span>Github</span> Stats</h2>
+      <h2 className='head-text'><span>Github</span> Stats</h2>
       <div className='app__github-cards'>
         {/* <a
           href="https://git.io/streak-stats"

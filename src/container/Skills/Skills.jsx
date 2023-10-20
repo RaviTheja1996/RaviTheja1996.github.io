@@ -27,7 +27,7 @@ const Skills = () => {
   return (
     <>
       <h2 className='head-text'>
-        My <span>Skills</span> & <span>Experience</span>
+        <span>Skills</span> & <span>Experience</span>
       </h2>
       <div className='app__skills-container'>
         <motion.div className='app__skills-list'>

@@ -44,11 +44,15 @@ const Navbar = () => {
                       <a href={`#${item}`} className={`nav-link ${item}`} onClick={() => setToggle(false)}>{item}</a>
                     </li>
                   ))}
-                  <li className='app__flex p-text'>
-                    <button id='resume-button-1'
-                      className='nav-link resume'
-                      style={{ backgroundColor: "#313bac" }}><a id="resume-link-1" href={`#contact`}>{"resume"}</a></button>
-                  </li>
+                  {/* <li className='app__flex p-text'> */}
+                  <button id='resume-button-1'
+                    className='nav-link resume'
+                    style={{ backgroundColor: "#313bac" }}
+                    onClick={() => { window.open(`${images.resumePdf}`, "_blank"); }}
+                  >
+                    <a id="resume-link-1" href={`#contact`}>{"resume"}</a>
+                  </button>
+                  {/* </li> */}
                 </ul>
               </motion.div>
             )

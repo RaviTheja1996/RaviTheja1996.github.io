@@ -15,6 +15,9 @@ const App = () => {
       <Testimonial />
       <GithubStats />
       <Footer />
+      <div class="app__flex" style={{ height: "3rem" }}>
+        Designed & Built by Ravitheja
+      </div>
     </div>
   );
 }

@@ -347,31 +347,6 @@
   }
 }
 
-.user-info {
-  margin-top: 3rem;
-  padding-bottom: 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-
-  span {
-    color: var(--secondary-color);
-  }
-
-  #user-detail-name {
-    font-size: 2.2rem;
-    font-weight: 600;
-  }
-
-  #user-detail-intro {
-    width: 70%;
-    font-size: 1.3rem;
-    margin: auto;
-  }
-}
-
 .app__header-button {
   min-width: 10rem;
   display: flex;
