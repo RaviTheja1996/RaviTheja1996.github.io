@@ -12,8 +12,6 @@ const Work = () => {
   const [works, setWorks] = useState([]);
   const [filterWork, setFilterWork] = useState([]);
 
-  const { react, redux, css, html, javascript, bootstrap, chakra, jsonServer } = images;
-
   useEffect(() => {
     const query = '*[_type == "works"]';
 
