@@ -10,34 +10,18 @@
     border-radius: 1rem;
     max-width: 100%;
     height: auto;
-    img {
-      object-fit: contain;
-    }
   }
 
-  @media screen and (max-width: 890px) {
+  @media screen and (max-width: 950px) {
     .flex-item {
       max-width: 400px;
-      align-self: flex-start;
       margin: auto;
     }
   }
 
-  @media screen and (max-width: 590px) {
-    .flex-item {
-      max-width: 300px;
-    }
-  }
-
-  @media screen and (max-width: 500px) {
-    .flex-item {
-      max-width: 200px;
-    }
-  }
-
   .flex-item:nth-child(3) {
-    height: 10rem;
-    padding: 0rem 1rem;
+    height: auto;
+    padding: 0.5rem 0.5rem;
   }
 
   .flex-item:nth-child(2),
