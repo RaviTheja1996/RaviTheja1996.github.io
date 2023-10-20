@@ -49,15 +49,15 @@ const Footer = () => {
         </div>
         <div className='app__footer-card'>
           <img src={images.Github} alt="Github" />
-          <a href="https://github.com/RaviTheja1996" className='p-text contact-github' target='_blank' rel="noreferrer">Github</a>
+          <a href="https://github.com/RaviTheja1996" className='p-text' id="contact-github" target='_blank' rel="noreferrer">Github</a>
         </div>
         <div className='app__footer-card'>
           <img src={images.gmail} alt="email" />
-          <a href="mailto:kopparapuraviteja@gmail.com" className='p-text contact-email' target='_blank' rel="noreferrer">kopparapuraviteja@gmail.com</a>
+          <a href="mailto:kopparapuraviteja@gmail.com" className='p-text' id='contact-email' target='_blank' rel="noreferrer">kopparapuraviteja@gmail.com</a>
         </div>
         <div className='app__footer-card'>
           <img src={images.mobile} alt="mobile" />
-          <a href="tel:+91 9502225286" className='p-text contact-phone' target='_blank' rel="noreferrer">+91 9502225286</a>
+          <a href="tel:+91 9502225286" className='p-text' id='contact-phone' target='_blank' rel="noreferrer">+91 9502225286</a>
         </div>
         <div className='app__footer-card'>
           <img src={images.location} alt="location" />
@@ -66,6 +66,7 @@ const Footer = () => {
         <div className='app__footer-card'>
           <img src={images.PDF} alt="Resume" />
           <a
+            id='resume-button-1'
             href="https://rebrand.ly/ravitheja-pdf-d1c49f"
             download="Ravitheja-Resume.pdf"
             className='p-text resume-button-1 resume-link-1'

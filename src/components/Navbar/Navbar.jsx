@@ -8,7 +8,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className='app__navbar nav-menu'>
+    <nav className='app__navbar' id="nav-menu">
       <div className='app__navbar-logo'>
         <img src={images.raviLogo} alt="logo" />
       </div>

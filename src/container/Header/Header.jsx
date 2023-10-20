@@ -68,15 +68,16 @@ const Header = () => {
         </motion.div>
       </div>
       <div className='user-info'>
-        <div className='user-detail-name'>
+        <div id='user-detail-name'>
           I'm <span>Ravitheja</span> a <span>Full Stack Web Developer</span>
         </div>
-        <div className='user-detail-intro'>
+        <div id='user-detail-intro'>
           A passionate full stack web developer and a life long learner trained by Masai School proficient in the MERN stack and  dedicated to developing robust, functional and user-centric websites possessing a keen eye for detail with a problem-solving mindset.
         </div>
         <div className='app__header-button'>
           <img src={images.PDF} alt="Resume" />
           <a
+            id='resume-button-2'
             href="https://rebrand.ly/ravitheja-pdf-d1c49f"
             download="Ravitheja-Resume.pdf"
             className='p-text resume-button-2 resume-link-2'
