@@ -12,11 +12,6 @@
   z-index: 10;
 }
 
-.nav-resume-button {
-  background-color: #313bac;
-  color: white;
-}
-
 .app__navbar-logo {
   display: flex;
   justify-content: flex-start;
@@ -156,5 +151,29 @@
 
   @media screen and (min-width: 900px) {
     display: none;
+  }
+}
+
+#resume-button-1 {
+  gap: 8px;
+  border-radius: 0.5rem;
+  margin-top: 8px;
+  margin-left: 8px;
+  z-index: 5;
+  cursor: pointer;
+  padding: 0.5rem 0.7rem;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  background-color: coral;
+  a {
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+
+  img {
+    height: 1.5rem;
   }
 }

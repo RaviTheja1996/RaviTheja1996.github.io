@@ -23,10 +23,11 @@ const Navbar = () => {
           {/* <li className='app__flex p-text'> */}
           <div />
           <button id='resume-button-1'
-            className='nav-link resume nav-resume-button'
+            className='nav-link resume app__flex'
             onClick={() => { window.open(`${images.resumePdf}`, "_blank"); }}
           >
-            <a id="resume-link-1" href={`#contact`}>{"resume"}</a>
+            <img src={images.downloadIcon} alt="downloadIcon" />
+            <a id="resume-link-1" href={`#contact`}>{"Resume"}</a>
           </button>
           {/* </li> */}
         </ul>
@@ -47,11 +48,11 @@ const Navbar = () => {
                   ))}
                   {/* <li className='app__flex p-text'> */}
                   <button id='resume-button-1'
-                    className='nav-link resume'
-                    style={{ backgroundColor: "#313bac" }}
+                    className='nav-link resume app__flex'
                     onClick={() => { window.open(`${images.resumePdf}`, "_blank"); }}
                   >
-                    <a id="resume-link-1" href={`#contact`}>{"resume"}</a>
+                    <img src={images.downloadIcon} alt="downloadIcon" />
+                    <a id="resume-link-1" href={`#contact`}>{"Resume"}</a>
                   </button>
                   {/* </li> */}
                 </ul>

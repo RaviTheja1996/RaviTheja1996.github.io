@@ -2,12 +2,19 @@
   margin-top: 3rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
+  justify-content: space-around !important;
+  align-items: center !important;
+  gap: 3rem;
+
+  .flex-item {
+    border-radius: 1rem;
+    max-width: 100%;
+    height: auto;
+  }
 
   .flex-item:nth-child(3) {
     height: 10rem;
+    padding: 0rem 1rem;
   }
 
   .flex-item:nth-child(2),

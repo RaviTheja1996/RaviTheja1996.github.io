@@ -37,6 +37,7 @@ import chakra from "../assets/chakra.png";
 import jsonServer from "../assets/jsonServer.png";
 import bootstrap from "../assets/bootstrap.png";
 import resumePdf from "../assets/RaviTheja-Resume-fw27_063.pdf";
+import downloadIcon from "../assets/download-arrow-icon-1.png";
 
 import adidas from '../assets/adidas.png';
 import amazon from '../assets/amazon.png';
@@ -91,5 +92,6 @@ export default {
   chakra,
   jsonServer,
   bootstrap,
-  resumePdf
+  resumePdf,
+  downloadIcon
 };

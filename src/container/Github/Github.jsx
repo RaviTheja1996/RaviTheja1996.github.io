@@ -7,16 +7,6 @@ const Github = () => {
     <div style={{ display: "flex", flexDirection: "column" }}>
       <h2 className='head-text'><span>Github</span> Stats</h2>
       <div className='app__github-cards'>
-        {/* <a
-          href="https://git.io/streak-stats"
-          target='_blank'
-          rel='noreferrer'
-          style={{ margin: "auto" }}
-          id='github-streak-stats'>
-          <img
-            src="https://github-readme-streak-stats.herokuapp.com?user=RaviTheja1996&theme=graywhite&border_radius=15&card_width=600"
-            alt="GitHub Streak" />
-        </a> */}
         <div className='flex-item'>
           <img
             id='github-streak-stats'
