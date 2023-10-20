@@ -20,10 +20,14 @@ const Navbar = () => {
               <a href={`#${item}`} className={`nav-link ${item}`}>{item}</a>
             </li>
           ))}
-          <li className='app__flex p-text'>
-            <div />
-            <a href={`#contact`} className='nav-link resume'>{"resume"}</a>
-          </li>
+          {/* <li className='app__flex p-text'> */}
+          <div />
+          <button id='resume-button-1'
+            className='nav-link resume nav-resume-button'
+          >
+            <a id="resume-link-1" href={`#contact`}>{"resume"}</a>
+          </button>
+          {/* </li> */}
         </ul>
         <div className='app__navbar-menu'>
           <HiMenuAlt4 onClick={() => setToggle(true)} />
@@ -40,8 +44,10 @@ const Navbar = () => {
                       <a href={`#${item}`} className={`nav-link ${item}`} onClick={() => setToggle(false)}>{item}</a>
                     </li>
                   ))}
-                  <li className='app__flex p-text nav-link resume'>
-                    <a href={`#contact`}>{"resume"}</a>
+                  <li className='app__flex p-text'>
+                    <button id='resume-button-1'
+                      className='nav-link resume'
+                      style={{ backgroundColor: "#313bac" }}><a id="resume-link-1" href={`#contact`}>{"resume"}</a></button>
                   </li>
                 </ul>
               </motion.div>

@@ -35,6 +35,7 @@ import PDF from "../assets/PDF-3D-icon.png";
 import chakra from "../assets/chakra.png";
 import jsonServer from "../assets/jsonServer.png";
 import bootstrap from "../assets/bootstrap.png";
+import resumePdf from "../assets/RaviTheja-Resume-fw27_063.pdf";
 
 import adidas from '../assets/adidas.png';
 import amazon from '../assets/amazon.png';
@@ -88,5 +89,6 @@ export default {
   PDF,
   chakra,
   jsonServer,
-  bootstrap
+  bootstrap,
+  resumePdf
 };

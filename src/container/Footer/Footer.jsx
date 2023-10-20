@@ -45,7 +45,7 @@ const Footer = () => {
       <div className='app__footer-cards'>
         <div className='app__footer-card'>
           <img src={images.linkedIn} alt="linkedIn" />
-          <a href="https://www.linkedin.com/in/ravitheja1996/" className='p-text contact-linkedin' target='_blank' rel="noreferrer">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/ravitheja1996/" id='contact-linkedin' className='p-text' target='_blank' rel="noreferrer">LinkedIn</a>
         </div>
         <div className='app__footer-card'>
           <img src={images.Github} alt="Github" />

@@ -78,10 +78,12 @@ const Header = () => {
         <div id='user-detail-intro'>
           A dedicated full stack web developer, I bring passion, lifelong learning, and proficiency in the MERN stack to the table. My focus is on crafting robust, functional, and user-centric websites, where attention to detail and a problem-solving mindset drive my work. My expertise extends to JavaScript, HTML, CSS, and RESTful API design, delivering seamless and dynamic web experiences. With hands-on experience in MongoDB and adeptness in Git for version control, I am well-versed in creating innovative solutions that resonate with modern tech trends.
         </div>
-        <div className='app__header-button'>
+        <button id='resume-button-2' className='app__header-button' onClick={() => {
+          window.open(`${images.resumePdf}`, "_blank");
+        }}>
           <img src={images.PDF} alt="Resume" />
           <a
-            id='resume-button-2'
+            id='resume-link-2'
             href="https://rebrand.ly/ravitheja-pdf-d1c49f"
             download="Ravitheja-Resume.pdf"
             className='p-text resume-button-2 resume-link-2'
@@ -90,7 +92,7 @@ const Header = () => {
           >
             Resume
           </a>
-        </div>
+        </button>
       </div>
     </>
   )
