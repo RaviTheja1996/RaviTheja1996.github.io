@@ -73,6 +73,7 @@ const Header = () => {
           className='app__header-button'
           onClick={() => { window.open(`${images.resumePdf}`, "_blank"); }}
         >
+          <span></span>
           <img src={images.PDF} alt="Resume" />
           <a
             id='resume-link-2'
@@ -84,6 +85,7 @@ const Header = () => {
           >
             Resume
           </a>
+          <span></span>
         </button>
       </div>
     </>
