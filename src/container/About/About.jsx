@@ -18,14 +18,19 @@ const About = () => {
     <>
       <h2 className='head-text'><span>About</span> Me</h2>
       <div className='user-info'>
-        <h2 className='head-text' id='user-detail-name'>
-          I'm <span>Ravitheja</span> a <span>Full Stack Web Developer</span>
-        </h2>
+        <div className='text-wrapper' id='user-detail-name'>
+          <div style={{ color: "black" }} className='static-text'>I'm Ravitheja </div>
+          <ul className='dynamic-texts'>
+            <li><span>Full Stack Web Developer.</span></li>
+            <li><span>Aspiring Designer.</span></li>
+            <li><span>Lifelong learner.</span></li>
+          </ul>
+        </div>
         <h2 className='head-text' style={{ fontSize: "2.5rem" }}>
           I know that <span>Good Development</span> means <span>Good Business</span>
         </h2>
         <p id='user-detail-intro'>
-          A dedicated full stack web developer, I bring passion, lifelong learning, and proficiency in the MERN stack to the table. My focus is on crafting robust, functional, and user-centric websites having attention to detail and a problem-solving mindset with hands-on experience on Git for version control. Quality and solution driven, skilled in and having hands-on experience of working with HTML, CSS, JavaScript, React, NodeJS and MongoDB. Highly resilient and focused on learning new techniques to build real world websites while facilitating the growth of self and that of the organization.
+          A dedicated fullstack web developer, I bring passion, lifelong learning, and proficiency in the MERN stack to the table. My focus is on crafting robust, functional, and user-centric websites having attention to detail and a problem-solving mindset with hands-on experience on Git for version control. Quality and solution driven, skilled in and having hands-on experience of working with HTML, CSS, JavaScript, React, NodeJS and MongoDB. Highly resilient and focused on learning new techniques to build real world websites while facilitating the growth of self and that of the organization.
         </p>
       </div>
       <div className='app__profiles'>
