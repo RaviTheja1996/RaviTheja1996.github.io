@@ -16,7 +16,7 @@ const Github = () => {
         </div>
         <div className='flex-item'>
           <img
-            src="https://github-readme-stats.vercel.app/api?username=RaviTheja1996&hide=contribs,prs"
+            src="https://github-readme-stats.vercel.app/api?username=RaviTheja1996&show_icons=true&theme=flag-india"
             style={{ maxWidth: "100%" }}
             id='github-stats-card'
             alt="" />

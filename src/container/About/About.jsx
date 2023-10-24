@@ -18,7 +18,7 @@ const About = () => {
     <>
       <h2 className='head-text'><span>About</span> Me</h2>
       <div className='user-info'>
-        <div className='text-wrapper' id='user-detail-name'>
+        <div className='head-text text-wrapper' id='user-detail-name'>
           <div style={{ color: "black" }} className='static-text'>I'm Ravitheja </div>
           <ul className='dynamic-texts'>
             <li><span>Full Stack Web Developer.</span></li>
