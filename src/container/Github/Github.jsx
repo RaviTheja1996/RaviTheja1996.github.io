@@ -1,6 +1,26 @@
 import React from 'react'
 import { MotionWrap, AppWrap } from '../../wrapper'
+import GitHubCalendar from 'react-github-calendar';
+import { Tooltip as ReactTooltip } from 'react-tooltip';
+import 'react-tooltip/dist/react-tooltip.css';
 import "./Github.scss";
+
+const showDataFromApril = contributions => {
+  const currentYear = new Date().getFullYear();
+  const currentMonth = new Date().getMonth();
+  const shownMonths = 7;
+
+  return contributions.filter(activity => {
+    const date = new Date(activity.date);
+    const monthOfDay = date.getMonth();
+
+    return (
+      date.getFullYear() === currentYear &&
+      monthOfDay > currentMonth - shownMonths &&
+      monthOfDay <= currentMonth
+    );
+  });
+};
 
 const Github = () => {
   return (
@@ -22,9 +42,22 @@ const Github = () => {
             alt="" />
         </div>
         <div className='react-activity-calendar flex-item'>
-          <img src="https://ghchart.rshah.org/313bac/ravitheja1996"
+          {/* <img src="https://ghchart.rshah.org/313bac/ravitheja1996"
             style={{ maxWidth: "100%" }}
-            alt="github-activity-calendar" />
+            alt="github-activity-calendar" /> */}
+          <GitHubCalendar
+            username="ravitheja1996"
+            blockRadius="7px"
+            colorScheme="light"
+            transformData={showDataFromApril}
+            renderBlock={(block, activity) =>
+              React.cloneElement(block, {
+                'data-tooltip-id': 'react-tooltip',
+                'data-tooltip-html': `${activity.count} activities on ${activity.date}`,
+              })
+            }
+          />
+          <ReactTooltip id="react-tooltip" />
         </div>
         <div className='flex-item'>
           <img
