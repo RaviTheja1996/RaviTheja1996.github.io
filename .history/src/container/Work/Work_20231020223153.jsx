@@ -40,7 +40,7 @@ const Work = () => {
     <>
       <h2 className='head-text'><span>Projects</span> section</h2>
       <div className='app__work-filter'>
-        {['React JS websites', 'MERN website', 'Bootstrap website', 'All'].map((item, index) => {
+        {['React JS websites', 'MERN website', 'Bootstrap website', 'Vanilla JS', 'All'].map((item, index) => {
           return <div
             key={index}
             onClick={() => handleWorkFilter(item)}
@@ -100,7 +100,7 @@ const Work = () => {
               <p className='p-text project-description' style={{ marginTop: 10 }}>
                 {work.description}
               </p>
-              <div className="project-tech-stack app__flex" style={{ marginTop: "1rem", gap: "0.7rem", flexWrap: "wrap" }}>
+              <div className="project-tech-stack app__flex" style={{ marginTop: "1rem", gap: "0.7rem" }}>
                 {work.techStack.map((img) => {
                   return <img src={urlFor(img)} alt={work.name} key={work.name} />
                 })}
