@@ -13,9 +13,9 @@ const About = () => {
   useEffect(() => {
     const typed = new Typed(el.current, {
       strings: [
-        "Full ^100 Stack ^100 Web ^100 Developer.",
-        "Aspiring ^100 Designer.",
-        "Lifelong ^100 learner.",
+        " Full ^100 Stack ^100 Web ^100 Developer.",
+        " Aspiring ^100 Designer.",
+        " Lifelong ^100 learner.",
       ],
       typingSpeed: 9900,
       backSpeed: 70,
