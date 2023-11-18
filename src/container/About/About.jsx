@@ -8,9 +8,15 @@ import { AppWrap, MotionWrap } from "../../wrapper";
 const About = () => {
   const [abouts, setAbouts] = useState([]);
 
+  const [cursorVisibility, setCursorVisibility] = useState(true);
+
   const el = useRef(null);
 
   useEffect(() => {
+    const handleWindowResize = () => {
+      setCursorVisibility(window.innerWidth < 1130 ? false : true);
+    };
+
     const typed = new Typed(el.current, {
       strings: [
         " Full ^100 Stack ^100 Web ^100 Developer.",
@@ -22,13 +28,17 @@ const About = () => {
       startDelay: 700,
       loop: true,
       loopCount: Infinity,
-      showCursor: true,
+      showCursor: cursorVisibility,
       cursorChar: "_",
     });
+
+    window.addEventListener('resize', handleWindowResize);
+
     return () => {
       typed.destroy();
+      window.removeEventListener('resize', handleWindowResize);
     };
-  }, []);
+  }, [cursorVisibility]);
 
   useEffect(() => {
     const query = '*[_type == "abouts"]';
@@ -45,7 +55,7 @@ const About = () => {
         <div className="head-text text-wrapper" id="user-detail-name">
           <div style={{ color: "black", marginRight: "1rem" }} className="static-text">
             I'm Ravitheja
-          </div>{" "}
+          </div>
           <span style={{ color: "rgb(255, 86, 56)" }} ref={el}></span>
           {/* <ul className='dynamic-texts'>
             <li><span>Full Stack Web Developer.</span></li>
