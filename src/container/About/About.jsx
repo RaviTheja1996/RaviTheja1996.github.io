@@ -43,7 +43,7 @@ const About = () => {
       </h2>
       <div className="user-info">
         <div className="head-text text-wrapper" id="user-detail-name">
-          <div style={{ color: "black" }} className="static-text">
+          <div style={{ color: "black", marginRight: "1rem" }} className="static-text">
             I'm Ravitheja
           </div>{" "}
           <span style={{ color: "rgb(255, 86, 56)" }} ref={el}></span>
