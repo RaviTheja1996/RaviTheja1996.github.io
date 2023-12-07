@@ -71,14 +71,16 @@ const Header = () => {
         <button
           id='resume-button-2'
           className='app__header-button'
-          onClick={() => { window.open(`${images.resumePdf}`, "_blank"); }}
+          onClick={() => { setTimeout(() => { window.open(`${images.resumePdf}`, "_blank"); }, 100); }}
+        // onClick={() => { window.open(`${images.resumePdf}`, "_blank"); }}
         >
           <span></span>
           <img src={images.PDF} alt="Resume" />
           <a
             id='resume-link-2'
-            href="https://rebrand.ly/ravitheja-pdf-d1c49f"
-            download="Ravitheja-Resume.pdf"
+            // href="https://rebrand.ly/ravitheja-pdf-d1c49f"
+            href="https://drive.google.com/file/d/1ye18h6I5gIOY4hW4E4QxovyhaaxYsm5h/view?usp=sharing"
+            download="Ravitheja-Kopparapu-Resume.pdf"
             className='p-text resume-button-2 resume-link-2'
             target='_blank'
             rel="noreferrer"
