@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.659f699c.css",
-    "main.js": "/static/js/main.b83287bd.js",
+    "main.js": "/static/js/main.30b9b3fa.js",
     "static/js/726.c5f2861a.chunk.js": "/static/js/726.c5f2861a.chunk.js",
     "static/media/about04.png": "/static/media/about04.fa7b3a72ed32b0e25bfb.png",
     "static/media/about02.png": "/static/media/about02.7a3df03410ee756268ec.png",
-    "static/media/RaviTheja-Resume-fw27_063.pdf": "/static/media/RaviTheja-Resume-fw27_063.01724ad7b7bdcf8df99f.pdf",
+    "static/media/Ravitheja-Kopparapu-Resume.pdf": "/static/media/Ravitheja-Kopparapu-Resume.daa02191fdca58f94412.pdf",
     "static/media/about01.png": "/static/media/about01.080509de05322b7aafda.png",
     "static/media/bgIMG.png": "/static/media/bgIMG.c39101e520e2997fc6d4.png",
     "static/media/bgWhite.png": "/static/media/bgWhite.79658cadae50b3b16ee5.png",
@@ -39,11 +39,11 @@
     "index.html": "/index.html",
     "static/media/circle.svg": "/static/media/circle.ae5f84b3853b9e34aa83cf8dada715c5.svg",
     "main.659f699c.css.map": "/static/css/main.659f699c.css.map",
-    "main.b83287bd.js.map": "/static/js/main.b83287bd.js.map",
+    "main.30b9b3fa.js.map": "/static/js/main.30b9b3fa.js.map",
     "726.c5f2861a.chunk.js.map": "/static/js/726.c5f2861a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.659f699c.css",
-    "static/js/main.b83287bd.js"
+    "static/js/main.30b9b3fa.js"
   ]
 }
