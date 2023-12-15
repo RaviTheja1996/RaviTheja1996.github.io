@@ -52,7 +52,7 @@ const Navbar = () => {
                     onClick={() => { window.open(`${images.resumePdf}`, "_blank"); }}
                   >
                     <img src={images.downloadIcon} alt="downloadIcon" />
-                    <a id="resume-link-1" href={`#contact`}>{"Resume"}</a>
+                    <a id="resume-link-1" download="Ravitheja-Kopparapu-Resume.pdf" href={`#contact`}>{"Resume"}</a>
                   </button>
                   {/* </li> */}
                 </ul>
