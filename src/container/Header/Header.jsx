@@ -75,7 +75,7 @@ const Header = () => {
         // onClick={() => { window.open(`${images.resumePdf}`, "_blank"); }}
         >
           <span></span>
-          <img src={images.PDF} alt="Resume" />
+          <img src={images.PDF} alt="Resume pdf icon" />
           <a
             id='resume-link-2'
             // href="https://rebrand.ly/ravitheja-pdf-d1c49f"
