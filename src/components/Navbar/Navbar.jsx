@@ -32,7 +32,16 @@ const Navbar = () => {
             }}
           >
             <img src={images.downloadIcon} alt="downloadIcon" />
-            <a id="resume-link-1" href={`#contact`}>
+            <a
+              id="resume-link-1"
+              download="Ravitheja-Kopparapu-Resume.pdf"
+              href="https://drive.google.com/file/d/1ye18h6I5gIOY4hW4E4QxovyhaaxYsm5h/view?usp=drive_link"
+              // href="https://1drv.ms/b/s!AhKK9bxRRzY_pzyaZ1aRdagWh87U?e=nICvJC"
+              // href={images.resumePdf}
+              // href="https://rb.gy/k7ekc0"
+              target="_blank"
+              rel="noreferrer"
+            >
               {"Resume"}
             </a>
           </button>
@@ -65,14 +74,19 @@ const Navbar = () => {
                   id="resume-button-1"
                   className="nav-link resume app__flex"
                   onClick={() => {
-                    setTimeout(() => { window.open(`${images.resumePdf}`, "_blank"); }, 100);
+                    setTimeout(() => {
+                      window.open(`${images.resumePdf}`, "_blank");
+                    }, 100);
                   }}
                 >
                   <img src={images.downloadIcon} alt="downloadIcon" />
                   <a
                     id="resume-link-1"
                     download="Ravitheja-Kopparapu-Resume.pdf"
-                    href="https://drive.google.com/file/d/1ye18h6I5gIOY4hW4E4QxovyhaaxYsm5h/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1ye18h6I5gIOY4hW4E4QxovyhaaxYsm5h/view?usp=drive_link"
+                    // href="https://1drv.ms/b/s!AhKK9bxRRzY_pzyaZ1aRdagWh87U?e=nICvJC"
+                    // href={images.resumePdf}
+                    // href="https://rb.gy/k7ekc0"
                     target="_blank"
                     rel="noreferrer"
                   >
