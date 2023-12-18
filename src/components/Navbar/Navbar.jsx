@@ -7,6 +7,32 @@ import { motion } from "framer-motion";
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
+  const downloadPDF = () => {
+    const pdfUrl =
+      "https://drive.google.com/file/d/1ye18h6I5gIOY4hW4E4QxovyhaaxYsm5h/view?usp=sharing";
+
+    // Create a hidden anchor element
+    const anchor = document.createElement("a");
+
+    // Fetch the PDF file as a Blob
+    fetch(pdfUrl)
+      .then((response) => response.blob())
+      .then((blob) => {
+        // Create a data URL with the suggested filename
+        const dataUrl = URL.createObjectURL(blob);
+        anchor.href = dataUrl;
+        anchor.download = "Ravitheja-Kopparapu-Resume.pdf";
+
+        // Trigger a click on the anchor element
+        document.body.appendChild(anchor);
+        anchor.click();
+
+        // Remove the anchor element and revoke the data URL
+        document.body.removeChild(anchor);
+        URL.revokeObjectURL(dataUrl);
+      });
+  };
+
   return (
     <div id="nav-menu">
       <nav className="app__navbar">
@@ -27,20 +53,13 @@ const Navbar = () => {
           <button
             id="resume-button-1"
             className="nav-link resume app__flex"
-            onClick={() => {
-              window.open(`${images.resumePdf}`, "_blank");
-            }}
+            onClick={downloadPDF}
           >
             <img src={images.downloadIcon} alt="downloadIcon" />
             <a
               id="resume-link-1"
               download="Ravitheja-Kopparapu-Resume.pdf"
               href="https://drive.google.com/file/d/1ye18h6I5gIOY4hW4E4QxovyhaaxYsm5h/view?usp=sharing"
-              //"https://drive.google.com/file/d/1ye18h6I5gIOY4hW4E4QxovyhaaxYsm5h/view?usp=sharing"
-
-              // href="https://1drv.ms/b/s!AhKK9bxRRzY_pzyaZ1aRdagWh87U?e=nICvJC"
-              // href={images.resumePdf}
-              // href="https://rb.gy/k7ekc0"
               target="_blank"
               rel="noreferrer"
             >
