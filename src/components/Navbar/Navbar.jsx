@@ -35,7 +35,9 @@ const Navbar = () => {
             <a
               id="resume-link-1"
               download="Ravitheja-Kopparapu-Resume.pdf"
-              href="https://drive.google.com/file/d/1ye18h6I5gIOY4hW4E4QxovyhaaxYsm5h/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1ye18h6I5gIOY4hW4E4QxovyhaaxYsm5h/view?usp=sharing"
+              //"https://drive.google.com/file/d/1ye18h6I5gIOY4hW4E4QxovyhaaxYsm5h/view?usp=sharing"
+
               // href="https://1drv.ms/b/s!AhKK9bxRRzY_pzyaZ1aRdagWh87U?e=nICvJC"
               // href={images.resumePdf}
               // href="https://rb.gy/k7ekc0"
